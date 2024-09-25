@@ -320,9 +320,8 @@ classDiagram
 ```
 
 
-### Vue d'ensemble de la classe EspeceDetail
+### Vue d'ensemble des classes Espece et EspeceDetail
 
-Les deux classes ci-dessous sont déjà fournies ainsi que presque toutes leurs méthodes. Il en manque cependant deux. Observez avec attention le schéma ci-dessous afin de créer les deux méthodes manquantes nécessaires au fonctionnement de l'application.
 
 ```mermaid
 classDiagram
@@ -363,7 +362,7 @@ classDiagram
         -Population population
         -ImageSource imageSource
 
-        +EspeceDetail(...)
+        +EspeceDetail(String nomCommun, String nomScientifique, String description, StatutDeMenace statutDeMenace, CriteresIdentification criteresIdentification, Caracteristiques caracteristiques, Population population, ImageSource imageSource)
         +getStatutDeMenace() StatutDeMenace
         +getCriteresIdentification() CriteresIdentification
         +getCaracteristiques() Caracteristiques
@@ -388,6 +387,7 @@ Voici quelques pistes/éléments :
 - une méthode compareTo doit être implémentée. Elle doit permettre de trier les espèces par nom scientifique.
 
 - on ne doit pas pouvoir créer un objet de la classe Espece
+- l'ordre des paramètres dans le constructeur doit être respecté, car des observations sont instantiées par le sevice `ServiceChargementEspeces`.
 
 ## ObservationBase et Observation
 
