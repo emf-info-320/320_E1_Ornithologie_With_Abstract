@@ -367,7 +367,7 @@ classDiagram
         +getCriteresIdentification() CriteresIdentification
         +getCaracteristiques() Caracteristiques
         +getPopulation() Population
-        +getImage() ImageSource
+        +getImageSource() ImageSource
         +setImage(ImageSource imageSource) void
         +toString() String
         +compareTo(Espece espece) int

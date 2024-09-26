@@ -203,8 +203,8 @@ public class View implements IViewForController, Initializable {
             lblNom.setText(especeDetail.getNomCommun());
             lblNomScientifique.setText(especeDetail.getNomScientifique());
             lblStatut.setText(especeDetail.getStatutDeMenace().getListeRougeCH());
-            imgvEspece.setImage(new Image(especeDetail.getImage().getEspeceImagePath()));
-            imgvRepartition.setImage(new Image(especeDetail.getImage().getRepartitionImagePath()));
+            imgvEspece.setImage(new Image(especeDetail.getImageSource().getEspeceImagePath()));
+            imgvRepartition.setImage(new Image(especeDetail.getImageSource().getRepartitionImagePath()));
             txtaDescription.setText(especeDetail.getDescription());
             lblTaille.setText(especeDetail.getCaracteristiques().getTailleCm());
             lblEnvergure.setText(especeDetail.getCaracteristiques().getEnvergureCm());
