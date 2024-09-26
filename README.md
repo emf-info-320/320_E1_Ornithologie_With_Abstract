@@ -433,7 +433,7 @@ classDiagram
 #### Indications utiles pour l'implémentation de `ObservationBase`
 
 1. La méthode `toString` doit renvoyer la date et l'auteur, séparé par un  / .
-2. La méthode compareTo doit être implémentée selon les besoins de l'application. C'est à dire selon les tris demandés par les méthodes getObservationsParNomCommun et getObservationsParNomCommunEtDate.
+2. La méthode compareTo doit être implémentée de manière à trier par ordre chronologique inverse de la date d'observation.
 
 
 #### Indications utiles pour l'implémentation de `Observation`
