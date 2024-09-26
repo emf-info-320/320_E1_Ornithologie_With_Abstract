@@ -25,7 +25,7 @@ public class ServiceIndexationEspeces {
 
     /**
      * Indexe chacune des espèces reçues de manière à ce qu'ensuite la méthode
-     * getNomCommuns() puisse faire son travail très rapidement.
+     * getlstNomCommun() puisse faire son travail très rapidement.
      * 
      * @param listEspeceDetails la liste des espèces à indexer
      */

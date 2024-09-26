@@ -36,7 +36,7 @@ Listes des fonctions spécifiques offertes à l'utilisateur:
   - Visualisation d'une liste d'espèce
   - Affichage des détails de l'espèce (image, répartition, description, caractéristiques, ...) lorsque l'espèce est sélectionnée dans la liste
   - Tri par nom scientifique de la liste à l'ouverture de l'application
-  - Tri possible par nom commun ou nombre de ponte/durée d'incubation
+  - Tri possible par nom commun ou nombre de ponte/durée de séjour au nid
 
 Partie du bas à gauche :
 - Visualisation d'une liste des observations effectuées
