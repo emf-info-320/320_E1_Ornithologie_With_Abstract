@@ -368,7 +368,7 @@ classDiagram
         +getCaracteristiques() Caracteristiques
         +getPopulation() Population
         +getImageSource() ImageSource
-        +setImage(ImageSource imageSource) void
+        +setImageSource(ImageSource imageSource) void
         +toString() String
         +compareTo(Espece espece) int
     }

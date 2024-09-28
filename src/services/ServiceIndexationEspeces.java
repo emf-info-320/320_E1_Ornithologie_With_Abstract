@@ -45,8 +45,7 @@ public class ServiceIndexationEspeces {
 
     /**
      * Retourne rapidement une nouvelle liste de tous les noms communs des espèces,
-     * et ce sans
-     * doublos et trié par ordre alphabétique.
+     * et ce sans doublons et triée par ordre alphabétique.
      * 
      * @return la liste précitée.
      */
