@@ -403,10 +403,10 @@ classDiagram
         +getDate() LocalDate
         +getAuteur() String
         +getNotes() String
-        +setDate() void
+        +setDate(LocalDate date) void
         +setAuteur() void
-        +setNotes() void
-        +compareTo() int
+        +setNotes(String notes) void
+        +compareTo(ObservationBase autreObservation) int
         +toString() String
     }
 
@@ -421,8 +421,8 @@ classDiagram
         +Observation(LocalDate date, String auteur, String notes, String nomCommun, String lieu)
         +getNomCommun() String
         +getLieu() String
-        +setNomCommun() void
-        +setLieu() void
+        +setNomCommun(String nomCommun) void
+        +setLieu(String lieu) void
         +toString() String
     }
 
