@@ -240,9 +240,9 @@ classDiagram
 
 
     class ServiceIndexationEspeces    {
-        +ServiceIndexationEspeces
+        +ServiceIndexationEspeces()
         +indexerLesEspeces(ArrayList< EspeceDetail > listEspeceDetails) void 
-        getlstNomCommun() ArrayList< String >
+        +getlstNomCommun() ArrayList< String >
     }
 
 ```
