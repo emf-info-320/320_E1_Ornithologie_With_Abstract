@@ -287,7 +287,7 @@ Veuillez réaliser le service correspondant :
 Soyez attentif à deux méthodes qui se ressemblent : `indexerObservations` et `indexerObservation`.
 
 L'application à besoin de ces deux sevices, car d'une part elle charge (et donc doit indexer) une liste d'observations à 
-l'initilisation de l'application, et d'autre part elle peux enregistrer de nouvelles observations (qui doivent également être indexées). Dans le but d'éviter de la duplication de code, la méthode `indexerObservation` va parcourir la liste initiale et appeler `indexerObservation` sur chaque entrée.
+l'initilisation de l'application, et d'autre part elle peux enregistrer de nouvelles observations (qui doivent également être indexées). Dans le but d'éviter de la duplication de code, la méthode `indexerObservations` va parcourir la liste initiale et appeler `indexerObservation` sur chaque entrée.
 
 Le code vous est  fourni, et déjà complété dans le fichier java du service:
 
